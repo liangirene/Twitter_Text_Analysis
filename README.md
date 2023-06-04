@@ -1,13 +1,13 @@
 # Twitter_Text_Analysis
 
-This project aimed to analyze and gain insights from a large dataset of customer reviews. By leveraging data science techniques such as source analysis, sentiment analysis, and time series analysis, I aimed to understand customer sentiments, identify trends over time, and analyze the sources of the reviews.
+This project aimed to analyze and gain insights from a sample of tweets of several high-profile public figures. By leveraging data science techniques such as source analysis, sentiment analysis, and time series analysis, I aimed to understand customer sentiments, identify trends over time, and analyze the sources of the reviews.
 
 ## Source Analysis
-To understand the sources of the customer reviews, I extracted information such as the platform or website from which the review was submitted. This allowed me to gain insights into where customers were expressing their opinions and evaluate the impact of different platforms on the overall sentiment.
+To understand the sources of the tweets, whether it was the from individual (e.g., from an iPhone) or a public relations firm (e.g., TweetDeck), I extracted HTML tags of the platform or website from which the tweet was published.
 
 ## Time Series Analysis
-Understanding how customer sentiment changed over time was crucial for identifying trends and making informed decisions. I analyzed the temporal aspect of the data by performing time series analysis on the customer review dataset. This involved visualizing sentiment trends over different time periods, such as daily, weekly, or monthly intervals, to uncover patterns and fluctuations in customer opinions.
+Analyzing the temporal aspect of the data was essential in identifying trends and understanding the evolution of tweet publication over time. A key step involved visualizing timestamp trends using a line and density plots, taking into account the respective timezones of each user and displaying the distribution of tweet posting hours. Examining the temporal aspect of the data uncovered valuable insights about user behavior throughout the day, including their eating and sleeping patterns.
 
 ## Sentiment Analysis
-By employing Natural Language Processing (NLP) techniques, I analyzed the sentiment of each customer review. The objective was to categorize reviews into positive, negative, or neutral sentiments, providing a quantitative measure of customer satisfaction. I used regular expressions and the *VADER (Valence Aware Dictionary and sEntiment Reasoner)* lexicon to preprocess the text, tokenize the reviews, and apply sentiment classification algorithms.
+Using Natural Language Processing (NLP) techniques, I analyzed the sentiment of each tweet by calculating their polarity score. This approach allowed me to obtain a quantitative measure of how users perceive certain subjects and people. I used regular expressions and the *VADER (Valence Aware Dictionary and sEntiment Reasoner)* lexicon to preprocess the text, tokenize the reviews, and apply sentiment classification algorithms.
 
