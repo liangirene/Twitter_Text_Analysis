@@ -1,4 +1,4 @@
-# Twitter_Text_Analysis
+# Twitter Text Analysis
 
 This project aimed to analyze and gain insights from a sample of tweets of several high-profile public figures. By leveraging data science techniques such as source analysis, sentiment analysis, and time series analysis, I aimed to understand customer sentiments, identify trends over time, and analyze the sources of the reviews.
 
